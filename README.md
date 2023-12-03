@@ -8,7 +8,7 @@ sbt new reminia/scala-app.g8
 
 ## Features
 
-1. package zip with sbt-native-packager, try it with `sbt universal:packageBin`
+1. release zip with sbt-native-packager, try it with `sbt universal:packageBin`
 2. publish to github repository with maven style, try `sbt publish`.
 3. support scalafmt, try `sbt scalafmt`.
 4. including scala ci, check [scala.yml](src/main/g8/.github/workflows/scala.yml).

@@ -4,7 +4,7 @@ version := "0.1.0-SNAPSHOT"
 scalaVersion := "2.13.12"
 organization := "$organization$"
 maintainer := "$email$"
-val javeVersion = "11"
+val javaVersion = "11"
 
 javacOptions ++= Seq("-source", javaVersion, "-target", javaVersion)
 scalacOptions ++= Seq("-Xsource:3")
@@ -15,7 +15,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "$name$",
-    libraryDependencies ++=(
+    libraryDependencies ++= Seq(
       scalaTest
     )
   )
