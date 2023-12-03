@@ -13,6 +13,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 
 lazy val root = project
   .in(file("."))
+  .enablePlugins(JavaAppPackaging, UniversalPlugin)
   .settings(
     name := "$name$",
     libraryDependencies ++= Seq(
