@@ -1,6 +1,8 @@
+import Build.*
+
 version := "0.1.0-SNAPSHOT"
 scalaVersion := "2.13.12"
-organization := "com.exmaple"
+organization := "$organization$"
 maintainer := "$email$"
 val javeVersion = "11"
 
@@ -14,5 +16,7 @@ lazy val root = project
   .settings(
     name := "$name$",
     libraryDependencies ++=(
+      scalaTest
     )
   )
+  .settings(publishSettings *)
