@@ -1,4 +1,4 @@
-# A [Giter8][g8] template for Scala2 App
+# A Scala2 App template
 
 ## Usage
 
