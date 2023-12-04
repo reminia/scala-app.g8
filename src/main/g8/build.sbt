@@ -20,4 +20,7 @@ lazy val root = project
       scalaTest
     )
   )
+  .settings(
+    Universal / mappings ++= Seq(file("README.md") -> "README.md"),
+  )
   .settings(publishSettings *)
