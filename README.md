@@ -12,4 +12,4 @@ sbt new reminia/scala-app.g8
 2. publish to github repository with maven style, try `sbt publish`.
 3. support scalafmt, try `sbt scalafmt`.
 4. including scala ci, check [scala.yml](src/main/g8/.github/workflows/scala.yml).
-5. Sbt common deps and utilities are placed under [project/Build.scala](src/main/g8/project/Build.scala).
+5. sbt common dependencies and utilities are placed under [project/Build.scala](src/main/g8/project/Build.scala).
