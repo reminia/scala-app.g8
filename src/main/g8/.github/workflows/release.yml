@@ -28,5 +28,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "target/universal/*.zip"
-          tag: ${{ github.ref }}
+          tag: \${{ github.ref }}
           allowUpdates: true
