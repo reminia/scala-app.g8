@@ -1,4 +1,4 @@
-import Build.*
+import Build._
 
 version := "0.1.0-SNAPSHOT"
 scalaVersion := "2.13.12"
@@ -7,7 +7,6 @@ maintainer := "$email$"
 val javaVersion = "11"
 
 javacOptions ++= Seq("-source", javaVersion, "-target", javaVersion)
-scalacOptions ++= Seq("-Xsource:3")
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
