@@ -7,8 +7,7 @@ object Build {
 
   // publish setting, default publish to github repository
   val publishSettings = Seq(
-    publishTo := Some("Github repo" at "https://maven.pkg.github.com/" + System.getenv("GITHUB_REPOSITORY")),
-    publishMavenStyle := true,
+    publishTo := Some("Github Package Registry" at "https://maven.pkg.github.com/" + System.getenv("GITHUB_REPOSITORY")),
     credentials += Credentials(
       "GitHub Package Registry",
       "maven.pkg.github.com",
