@@ -1,4 +1,5 @@
-# A Scala2 App template ![ci](https://github.com/reminia/scala-app.g8/actions/workflows/ci.yml/badge.svg)
+# A Scala2 App template 
+![ci](https://github.com/reminia/scala-app.g8/actions/workflows/ci.yml/badge.svg)
 
 This is a [Giter8](https://www.foundweekends.org/giter8/) template. Try it with:
 
